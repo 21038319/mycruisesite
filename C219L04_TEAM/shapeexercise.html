@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .container {
+
+            margin: 30px;
+
+        }
+
+
+
+
+        /* .star {
+            background: black;
+            height: 100px;
+            width: 100px;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+
+        .star:hover {
+            background: rgb(238, 255, 0);
+            height: 100px;
+            width: 100px;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+        }
+
+        /* .square {
+
+            border-radius: 0%;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+
+
+
+        }
+
+        .square:hover {
+            background-color: red;
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+
+
+        } */
+
+        .rectangle {
+            height: 50px;
+            width: 100px;
+            background-color: black;
+        }
+
+        .rectangle:hover {
+            height: 100px;
+            width: 150px;
+            background-color: blanchedalmond;
+            transform: skew(20deg);
+
+
+        }
+
+        .circle {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            transition: 1s;
+
+        }
+
+        .circle:hover {
+            height: 150px;
+            width: 150px;
+            border-radius: 0;
+            background-color: rgb(0, 255, 136);
+        }
+
+        #rect {
+            fill: rgb(16, 123, 237);
+            stroke: rgb(28, 28, 28);
+            width: 100px;
+            height: 100px;
+            stroke-width: 2px;
+            transition: width 3s, height 3s;
+        }
+
+        #rect:hover {
+            width: 300px;
+            height: 300px;
+        }
+
+
+        .parallelogram {
+            width: 150px;
+            height: 100px;
+            transform: skewX(40deg);
+            background-color: rgba(255, 192, 203);
+            transition: 2s;
+        }
+
+        .parallelogram:hover {
+            transform: skewX(0deg);
+            background-color: rgb(250, 97, 122);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1 style="text-align: center;">Shape Activity</h1>
+
+    <div class="flexbox">
+        <!-- <div class="container">
+            <div class="square"></div>
+
+        </div> -->
+
+        <!-- <div class="container">
+            <div class="star"></div>
+        </div> -->
+
+        <div class="container">
+            <div class="rectangle"></div>
+            <p>Gwen</p>
+        </div>
+
+        <div class="container">
+            <div class="circle"></div>
+            <p>Travis</p>
+        </div>
+
+        <div class="container">
+            <div class="parallelogram"></div>
+            <p>Royden</p>
+        </div>
+
+        <div class="container">
+            <svg width="100%" height="90%">
+                <rect id="rect" x="50" y="50" />
+            </svg>
+            <p>Yu Xin</p>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
